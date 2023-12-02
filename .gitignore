@@ -1,5 +1,5 @@
 notes.txt
-config/
+config/default.json
 .vscode/*
 
 # Logs

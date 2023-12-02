@@ -1,0 +1,183 @@
+// rename this to default.json
+{
+    "rpcUrl":"YOUR_RPC_URL",
+    "discordWebhookUrl":"YOUR_DISCORD_WEBHOOK_URL",
+    "discordWebhookUrlOpenEdition":"YOUR_DISCORD_WEBHOOK_URL",
+    "discordWebhookFreeMint":"YOUR_DISCORD_WEBHOOK_URL",
+    "IERC165_ABI": [
+        {
+            "inputs": [],
+            "name": "name",
+            "outputs": [
+                {
+                    "internalType": "string",
+                    "name": "",
+                    "type": "string"
+                }
+            ],
+            "stateMutability": "view",
+            "type": "function"
+        },
+        {
+            "inputs": [
+                {
+                    "internalType": "bytes4",
+                    "name": "interfaceId",
+                    "type": "bytes4"
+                }
+            ],
+            "name": "supportsInterface",
+            "outputs": [
+                {
+                    "internalType": "bool",
+                    "name": "",
+                    "type": "bool"
+                }
+            ],
+            "stateMutability": "view",
+            "type": "function"
+        },
+        {
+            "inputs": [],
+            "name": "symbol",
+            "outputs": [
+                {
+                    "internalType": "string",
+                    "name": "",
+                    "type": "string"
+                }
+            ],
+            "stateMutability": "view",
+            "type": "function"
+        }
+    ],
+    "ERC721_INTERFACE_ID": "0x80ac58cd",
+    "ERC721_METADATA_INTERFACE_ID": "0x5b5e139f",
+    "ERC721_ENUMERABLE_INTERFACE_ID": "0x780e9d63",
+    "ERC721_FULL_INTERFACE_ID": "0x80ac58cd",
+    "mintFunctionNames":[
+        ["totalSupply", "maxSupply", "MAX_SUPPLY", "totalMaxSupply", "TOTAL_MAX_SUPPLY"],
+        ["maxFree", "MAX_FREE", "free", "FREE", "totalFree", "TOTAL_FREE", "totalFreeMints", "TOTAL_FREE_MINTS"],
+        ["maxFreePerWallet", "MAX_FREE_PER_WALLET", "freePerWallet", "FREE_PER_WALLET"],
+        ["cost", "COST", "price", "PRICE", "mintPrice", "MINT_PRICE", "publicPrice", "PUBLIC_PRICE", "public", "PUBLIC"]
+    ],
+    "variablesInterface":[
+        {
+            "inputs": [],
+            "name": "COST",
+            "outputs": [
+                {
+                    "internalType": "uint256",
+                    "name": "",
+                    "type": "uint256"
+                }
+            ],
+            "stateMutability": "view",
+            "type": "function"
+        },
+        {
+            "inputs": [],
+            "name": "MAX_FREE",
+            "outputs": [
+                {
+                    "internalType": "uint256",
+                    "name": "",
+                    "type": "uint256"
+                }
+            ],
+            "stateMutability": "view",
+            "type": "function"
+        },
+        {
+            "inputs": [],
+            "name": "MAX_FREE_PER_WALLET",
+            "outputs": [
+                {
+                    "internalType": "uint256",
+                    "name": "",
+                    "type": "uint256"
+                }
+            ],
+            "stateMutability": "view",
+            "type": "function"
+        },
+        {
+            "inputs": [],
+            "name": "MAX_SUPPLY",
+            "outputs": [
+                {
+                    "internalType": "uint256",
+                    "name": "",
+                    "type": "uint256"
+                }
+            ],
+            "stateMutability": "view",
+            "type": "function"
+        },
+        {
+            "inputs": [],
+            "name": "PRICE",
+            "outputs": [
+                {
+                    "internalType": "uint256",
+                    "name": "",
+                    "type": "uint256"
+                }
+            ],
+            "stateMutability": "view",
+            "type": "function"
+        },
+        {
+            "inputs": [],
+            "name": "cost",
+            "outputs": [
+                {
+                    "internalType": "uint256",
+                    "name": "",
+                    "type": "uint256"
+                }
+            ],
+            "stateMutability": "view",
+            "type": "function"
+        },
+        {
+            "inputs": [],
+            "name": "maxFree",
+            "outputs": [
+                {
+                    "internalType": "uint256",
+                    "name": "",
+                    "type": "uint256"
+                }
+            ],
+            "stateMutability": "view",
+            "type": "function"
+        },
+        {
+            "inputs": [],
+            "name": "maxSupply",
+            "outputs": [
+                {
+                    "internalType": "uint256",
+                    "name": "",
+                    "type": "uint256"
+                }
+            ],
+            "stateMutability": "view",
+            "type": "function"
+        },
+        {
+            "inputs": [],
+            "name": "price",
+            "outputs": [
+                {
+                    "internalType": "uint256",
+                    "name": "",
+                    "type": "uint256"
+                }
+            ],
+            "stateMutability": "view",
+            "type": "function"
+        }
+    ]
+}
